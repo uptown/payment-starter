@@ -25,9 +25,9 @@ async function bootstrap() {
 
   // https://docs.nestjs.com/openapi/introduction
   const config = new DocumentBuilder()
-    .setTitle('NestJS Starter')
-    .setDescription('Example')
-    .setVersion('1.0')
+    .setTitle('Payment Starter')
+    .setDescription('빠르게 시작하는 결제 microservice')
+    .setVersion('1.0.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
