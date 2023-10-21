@@ -1,0 +1,6 @@
+http:
+  port: 8080
+
+typeORM:
+  # https://stackoverflow.com/questions/59435293/typeorm-entity-in-nestjs-cannot-use-import-statement-outside-a-module
+  entities: ["dist/src/domain/**/*.entity.{ts,js}"]
